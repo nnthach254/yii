@@ -42,14 +42,16 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
+        
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '/site/lien-he' => 'site/contact',
+                'about' => 'site/about',
             ],
         ],
-        */
+    
     ],
     'params' => $params,
 ];
